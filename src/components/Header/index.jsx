@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./style.scss";
 import logo from "../../assets/SP labs_.png";
+import background from "../../assets/header-image.png";
 
 export default function Header() {
   const [colorChat, setColorChat] = useState("white");
 
   return (
     <header className="header">
+      <div><img src={background} alt="" className="header__background" /></div>
       <div className="header__container">
         <img className="nav__image" alt="logo" src={logo} />
         <div className="nav_items">
