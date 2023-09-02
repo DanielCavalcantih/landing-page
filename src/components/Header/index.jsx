@@ -8,12 +8,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__container">
-        <div className="container__nav">
-          <img className="nav__image" alt="logo" src={logo} />
-          <div>
-            <span className="nav__item">Cases</span>
-            <span className="nav__item">Contato</span>
-          </div>
+        <img className="nav__image" alt="logo" src={logo} />
+        <div className="nav_items">
+          <span className="nav__item" style={{ marginRight: '17.5px' }}>Cases</span>
+          <span className="nav__item" style={{ marginLeft: '17.5px' }}>Contato</span>
         </div>
         <div className="container__title">
           <h1 className="title__h1">

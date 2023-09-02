@@ -1,7 +1,10 @@
 .header {
   height: 98vh;
+  width: 100%;
   background-image: url('../../assets/header-image.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
 }
 
 .header__container {
@@ -9,29 +12,27 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 0 100px;
 }
 
-.container__nav {
+.nav__image {
   position: absolute;
   top: 32px;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav__image {
   width: 63px;
   height: 46px;
+}
+
+.nav_items {
+  position: absolute;
+  top: 32px;
+  right: 100px;
 }
 
 .nav__item {
   color: white;
   text-align: center;
   font-family: Roboto;
-  margin: 17.5px;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
