@@ -106,9 +106,9 @@
 }
 
 .chat__button {
-  position: absolute;
+  position: fixed;
   right: 32px;
-  bottom: 18px;
+  bottom: 32px;
   cursor: pointer;
   border-radius: 50px;
   height: 48px;
