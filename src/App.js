@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import SectionSolutions from "./components/SectionSolutions";
+import SectionVideo from "./components/SectionVideo";
 import './reset.scss'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Header />
       <SectionSolutions />
+      <SectionVideo />
       <button
           className="chat__button"
           onMouseEnter={() => setColorChat("#343434")}
