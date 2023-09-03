@@ -6,6 +6,7 @@ import ContactUs from "./components/ContactUs";
 import './reset.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./components/Footer";
 AOS.init();
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <SectionSolutions />
       <SectionVideo />
       <ContactUs />
+      <Footer />
       <button
           className="chat__button"
           onMouseEnter={() => setColorChat("#343434")}

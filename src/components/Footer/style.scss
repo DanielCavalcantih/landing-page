@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.footer {
+  height: 262px;
+  padding: 80px 100px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__brands {
+  display: flex;
+  justify-content: space-between;
+  width: 432px;
+}
+
+.footer__subtitle {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.24px;
+  margin-bottom: 16px;
+}
+
+.footer__links {
+  color: var(--Cinza-Escuro, #343434);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  border: none;
+  height: 2px;
+  background-color: #5DFED6;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+.footer__powered {
+  color: var(--Cinza-Escuro, #343434);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.225px;
+}
