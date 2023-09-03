@@ -1,9 +1,9 @@
 import "./style.scss";
 
-export default function CardSolution({ solution }) {
+export default function CardSolution({ solution, index }) {
   const { title, description, link } = solution;
   return (
-    <div className="card">
+    <div className="card" data-aos={`fade-${index % 2 === 0 ? 'right' : 'left'}`} data-aos-duration="700">
       <h3 className="card__title">{title}</h3>
       <p className="card__text">{description}</p>
       <a className="card__link" href={link}>

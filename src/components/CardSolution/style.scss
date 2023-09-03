@@ -34,6 +34,12 @@
   border: 1px solid var(--Cinza, #C4C4C4);
   width: 110px;
   text-decoration: none;
+  transition: 300ms;
+}
+
+.card__link:hover {
+  border-radius: 4px;
+  border: 1px solid var(--Cinza-Escuro, #343434);
 }
 
 .link__text {

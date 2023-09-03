@@ -8,3 +8,12 @@ export const getCases = async () => {
     console.log(error);
   }
 }
+
+export const sendContact = async (info) => {
+  try {
+    const send = await axios.post('https://sp-labs.vercel.app/api/contact', info);
+    return send;
+  } catch (error) {
+    console.log(error);
+  }
+}

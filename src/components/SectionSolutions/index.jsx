@@ -32,8 +32,8 @@ export default function SectionSolutions() {
       </p>
       <div className="container__cards">
         {cases.length &&
-          cases.map((solution) => (
-            <CardSolution key={solution.title} solution={solution} />
+          cases.map((solution, index) => (
+            <CardSolution key={solution.title} solution={solution} index={index} />
           ))}
       </div>
     </section>
