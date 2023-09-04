@@ -17,3 +17,12 @@ export const sendContact = async (info) => {
     console.log(error);
   }
 }
+
+export const sendMessage = async (message) => {
+  try {
+    const send = await axios.post('https://sp-labs.vercel.app/api/chat', message);
+    return send.data;
+  } catch (error) {
+    console.log(error);
+  }
+}

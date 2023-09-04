@@ -104,24 +104,3 @@
 .title__button:hover {
   background-color: #45E6BF;
 }
-
-.chat__button {
-  position: fixed;
-  right: 32px;
-  bottom: 32px;
-  cursor: pointer;
-  border-radius: 50px;
-  height: 48px;
-  width: 48px;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #343434;
-  transition: 300ms;
-}
-
-.chat__button:hover {
-  background: #5DFED6;
-  color: black;
-}
