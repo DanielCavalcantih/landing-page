@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getCases } from "../../services/api";
 import "./style.scss";
-import CardSolution from "../CardSolution";
+import CardSolution from "./components/CardSolution";
 
 export default function SectionSolutions() {
   const [cases, setCases] = useState([]);
