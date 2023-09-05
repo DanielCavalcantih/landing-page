@@ -29,7 +29,6 @@ export default function ChatModal({ visibility }) {
       className="chat"
       style={{
         height: expand ? "612px" : "361px",
-        top: expand ? "2.8vh" : "35vh",
         visibility: visibility ? "hidden" : "visible",
         opacity: visibility ? 0 : 1,
       }}

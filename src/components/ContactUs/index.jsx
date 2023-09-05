@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.scss";
 import { sendContact } from "../../services/api";
-import ModalMessage from "../ModalMessage";
+import ModalMessage from "./components/ModalMessage";
 
 export default function ContactUs() {
   const [personInfo, setPersonInfo] = useState({
