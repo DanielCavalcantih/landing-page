@@ -52,3 +52,9 @@
   line-height: 150%; /* 21px */
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 680px) {
+  .card {
+    height: 318px;
+  }
+}

@@ -33,3 +33,23 @@
   gap: 80px 32px;
   height: 1128px;
 }
+
+@media screen and (max-width: 950px) {
+  .container__cards {
+    display: flex;
+    flex-direction: column;
+    height: 1900px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .solutions {
+    padding: 0 30px 80px 30px;
+  }
+
+  .solutions__title {
+    font-size: 32px;
+    letter-spacing: -0.48px;
+    height: 192px;
+  }
+}

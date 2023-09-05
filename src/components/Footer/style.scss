@@ -62,3 +62,35 @@
   line-height: 24px; /* 160% */
   letter-spacing: -0.225px;
 }
+
+@media screen and (max-width: 680px) {
+  .footer {
+    padding: 80px 30px;
+    height: 456px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    height: 306px;
+  }
+
+  .content__brands {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin-top: 64px;
+  }
+
+  .footer__subtitle {
+    text-align: center;
+  }
+
+  .footer__links {
+    text-align: center;
+  }
+
+  .brand {
+    margin-bottom: 32px;
+  }
+}

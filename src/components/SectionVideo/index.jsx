@@ -6,7 +6,7 @@ export default function SectionVideo() {
       <div className="video_content">
         <h2 className="content__title">
           Quem são, o que fazem, onde
-          <br />
+          <br className="br__video" />
           vivem?
         </h2>
         <p className="content__text">
@@ -16,8 +16,7 @@ export default function SectionVideo() {
         </p>
       </div>
       <iframe
-        width="512"
-        height="297"
+        className="video__play"
         src="https://www.youtube.com/embed/f6JYnsrbAKo?si=IWdC_5nb0TR5BkKm"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

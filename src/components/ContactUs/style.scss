@@ -98,6 +98,11 @@ textarea {
   vertical-align: middle;
 }
 
+.contact__select {
+  width: 358px;
+  cursor: pointer;
+}
+
 .form__check:checked + label:before {
   background-color: #45E6BF;
   color: black;
@@ -129,4 +134,30 @@ textarea {
 
 .form__button:hover {
   background-color: #45E6BF;
+}
+
+@media screen and (max-width: 680px) {
+  .contact {
+    padding: 80px 30px;
+    height: 863px;
+  }
+
+  .contact__form {
+    width: 260px;
+    height: 591px;
+  }
+
+  .contact__title {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.48px;
+  }
+
+  .form__input {
+    width: 232px;
+  }
+
+  .contact__select {
+    width: 267px;
+  }
 }

@@ -10,6 +10,7 @@
   height: 98vh;
   position: absolute;
   filter: grayscale(100%);
+  object-fit: cover;
 }
 
 .header__container {
@@ -103,4 +104,36 @@
 
 .title__button:hover {
   background-color: #45E6BF;
+}
+
+
+@media screen and (max-width: 580px) {
+  .header {
+    height: 100vh;
+  }
+
+  .header__background {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .header__container {
+    padding: 0 30px;
+  }
+
+  .title__h1 {
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.84px;
+    width: 320px;
+  }
+
+  .title__button {
+    width: 100%;
+  }
+
+  .nav_items {
+    right: 30px;
+  }
 }

@@ -31,3 +31,38 @@
   line-height: 30px; /* 166.667% */
   letter-spacing: -0.27px;
 }
+
+.video__play {
+  width: 512px;
+  height: 297px;
+}
+
+@media screen and (max-width: 680px) {
+  .video {
+    flex-direction: column;
+    height: 517px;
+    padding: 80px 30px;
+  }
+
+  .video_content {
+    width: 336px;
+  }
+
+  .br__video {
+    display: none;
+  }
+
+  .content__title {
+    font-size: 32px;
+    letter-spacing: -0.48px;
+  }
+
+  .content__text {
+    margin-bottom: 32px;
+  }
+
+  .video__play {
+    width: 330px;
+    height: 191px;
+  }
+}

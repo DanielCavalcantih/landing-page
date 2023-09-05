@@ -76,7 +76,7 @@ export default function ChatModal({ visibility }) {
           width: "100%",
         }}
       >
-        <div style={{ width: "354px" }} className="chat__box">
+        <div className="chat__box">
           {messages.length ? (
             <div className="box__all__messages">
               <div

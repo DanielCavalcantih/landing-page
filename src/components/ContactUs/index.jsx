@@ -52,11 +52,10 @@ export default function ContactUs() {
           placeholder="Seu email"
         />
         <select
-          style={{ width: "358px", cursor: "pointer" }}
           name="segment"
           onChange={handleChange}
           value={personInfo.segment}
-          className="form__input"
+          className="form__input contact__select"
           placeholder="Seu segmento"
         >
           <option value="">Seu segmento</option>

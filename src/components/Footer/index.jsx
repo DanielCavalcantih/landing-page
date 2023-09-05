@@ -9,7 +9,7 @@ export default function Footer() {
           <img width="63" height="46" src={logo} alt="" />
         </div>
         <div className="content__brands">
-          <div>
+          <div className="brand">
             <p className="footer__subtitle">SP Labs</p>
             <a className="footer__links" href="/">
               Política de Privacidade
