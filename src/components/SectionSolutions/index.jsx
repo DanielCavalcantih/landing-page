@@ -22,7 +22,7 @@ export default function SectionSolutions() {
         Problemas complexos.
         <br />
         Soluções{" "}
-        <span style={{ textDecorationLine: "strikethrough" }}>
+        <span style={{ textDecoration: 'line-through' }}>
           complexas
         </span>{" "}
         <span style={{ fontStyle: "italic" }}>criativas</span>_
